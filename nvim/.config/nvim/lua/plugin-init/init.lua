@@ -13,4 +13,9 @@ return require('packer').startup(function()
 
   use 'folke/tokyonight.nvim' -- theme
   use 'neovim/nvim-lspconfig' -- lsp
+
+  use {
+	  'nvim-telescope/telescope.nvim',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+  }
 end)
