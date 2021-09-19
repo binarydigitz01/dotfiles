@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 exec_always polybar example
-exec_always picom
+exec_always picom --experimental-backend
 exec_always nitrogen --restore
 
 #######################################################################
